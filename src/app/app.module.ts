@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
+import { ProductListComponent } from './product-list/product-list.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 import { ProductService } from './product.service';
@@ -14,7 +15,8 @@ import { ProductService } from './product.service';
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProductTracklistingComponent
+    ProductTracklistingComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
